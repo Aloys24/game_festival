@@ -14,7 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>mini-festival</name>
     <packaging>pom</packaging>
-    <description>2021-0909中秋国庆活动</description>
+    <description>****</description>
 
     <modules>
         <module>fes-common</module>
@@ -135,26 +135,6 @@
 
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>development.release</id>
-            <name>Nexus Repository</name>
-            <url>http://10.0.0.203:3419/repository/miniw/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
+ 
 
 </project>
