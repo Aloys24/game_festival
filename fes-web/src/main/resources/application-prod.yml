@@ -1,0 +1,56 @@
+server:
+  port: 5090
+  servlet:
+    session:
+      timeout: 1m
+spring:
+  application:
+    name: fes-web
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 8
+    # Redis服务器地址
+    host: redis-122bef7a-71f3-4583-bdfd-5b3032cf59f9.dcs.huaweicloud.com
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: MzZiMzJmYWJlZDU5MTVkOTBlMjczMGY0
+    # 连接超时时间
+    timeout: 60s
+
+    jedis:
+      pool:
+        # 最大连接数
+        max-active: 1500
+        # 最大空闲线程
+        max-idle: 5
+        # 最小空闲线程
+        min-idle: 0
+        # 最大连接阻塞时间，负值表示没有限制
+        max-wait: 30s
+  datasource:
+    url: jdbc:mysql://192.168.1.2:3306/activities?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+    username: acti_user
+    password: YTdlMDQ5MjBlODZj
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 24
+      connection-test-query: select 1
+
+# 迷你玩GameApi
+gameapi:
+  http:
+    pool:
+      connect-timeout: 200
+      socket-timeout: 2000
+      connection-request-timeout: 400
+  profiles:
+    active: prod
+
+# slf4j
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.miniw: DEBUG

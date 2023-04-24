@@ -1,0 +1,730 @@
+[2021-09-08 10:27:24.475] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 10:27:24.477] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 10:27:33.250] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 21485 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 10:27:33.253] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 10:27:34.061] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 10:27:34.063] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 10:27:34.087] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[2021-09-08 10:27:34.210] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 10:27:34.279] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 10:27:34.655] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 10:27:34.664] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 10:27:34.665] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 10:27:34.665] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 10:27:34.744] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 10:27:34.745] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+[2021-09-08 10:27:35.446] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 10:27:35.659] [redisson-netty-4-6] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 10:27:35.659] [redisson-netty-4-5] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 10:27:36.410] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 10:27:36.639] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 10:27:36.734] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 10:27:36.746] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 10:27:36.760] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 4.11 seconds (JVM running for 5.002)
+[2021-09-08 10:27:53.628] [http-nio-5090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 10:28:00.013] [task-2] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:28:00.013, threadName - task-2正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:28:00.013] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:28:00.013, threadName - task-3正在执行月无双预售发放礼包任务
+[2021-09-08 10:30:00.005] [task-8] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:30:00.005, threadName - task-8正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:30:00.005] [task-9] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:30:00.005, threadName - task-9正在执行月无双预售发放礼包任务
+[2021-09-08 10:32:00.003] [task-13] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:32:00.003, threadName - task-13正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:32:00.005] [task-16] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:32:00.005, threadName - task-16正在执行月无双预售发放礼包任务
+[2021-09-08 10:34:00.004] [task-19] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:34:00.004, threadName - task-19正在执行月无双预售发放礼包任务
+[2021-09-08 10:34:00.006] [task-21] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:34:00.005, threadName - task-21正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:34:00.625] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 10:34:00.628] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 10:34:09.388] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 21564 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 10:34:09.393] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 10:34:10.669] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 10:34:10.674] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 10:34:10.728] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+[2021-09-08 10:34:10.971] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 10:34:11.052] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 10:34:11.715] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 10:34:11.730] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 10:34:11.731] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 10:34:11.732] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 10:34:11.881] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 10:34:11.882] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2386 ms
+[2021-09-08 10:34:13.154] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 10:34:13.544] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 10:34:13.544] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 10:34:14.958] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 10:34:15.382] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 10:34:15.532] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 10:34:15.551] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 10:34:15.568] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 7.037 seconds (JVM running for 8.472)
+[2021-09-08 10:35:25.285] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 10:36:00.012] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:36:00.012, threadName - task-4正在执行月无双预售发放礼包任务
+[2021-09-08 10:36:00.012] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:36:00.012, threadName - task-3正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:38:00.004] [task-10] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:38:00.004, threadName - task-10正在执行月无双预售发放礼包任务
+[2021-09-08 10:38:00.008] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:38:00.008, threadName - task-12正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:40:00.003] [task-16] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:40:00.003, threadName - task-16正在执行月无双预售发放礼包任务
+[2021-09-08 10:40:00.003] [task-17] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:40:00.003, threadName - task-17正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:42:00.004] [task-22] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:42:00.004, threadName - task-22正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:42:00.005] [task-24] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:42:00.005, threadName - task-24正在执行月无双预售发放礼包任务
+[2021-09-08 10:46:22.930] [task-27] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:46:22.930, threadName - task-27正在执行月无双预售发放礼包任务
+[2021-09-08 10:46:22.930] [task-28] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:46:22.930, threadName - task-28正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:48:00.004] [task-33] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:48:00.004, threadName - task-33正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:48:00.004] [task-34] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:48:00.004, threadName - task-34正在执行月无双预售发放礼包任务
+[2021-09-08 10:50:00.001] [task-39] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:50:00.001, threadName - task-39正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:50:00.001] [task-41] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:50:00.001, threadName - task-41正在执行月无双预售发放礼包任务
+[2021-09-08 10:52:00.004] [task-45] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:52:00.003, threadName - task-45正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:52:00.006] [task-48] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:52:00.006, threadName - task-48正在执行月无双预售发放礼包任务
+[2021-09-08 10:54:00.004] [task-51] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:54:00.004, threadName - task-51正在执行月无双预售发放礼包任务
+[2021-09-08 10:54:00.004] [task-53] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:54:00.004, threadName - task-53正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:56:00.004] [task-57] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:56:00.004, threadName - task-57正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:56:00.004] [task-59] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:56:00.004, threadName - task-59正在执行月无双预售发放礼包任务
+[2021-09-08 10:58:00.002] [task-63] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:58:00.002, threadName - task-63正在执行柳仙儿预售发放礼包任务
+[2021-09-08 10:58:00.003] [task-65] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T10:58:00.003, threadName - task-65正在执行月无双预售发放礼包任务
+[2021-09-08 11:00:00.003] [task-69] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:00:00.003, threadName - task-69正在执行月无双预售发放礼包任务
+[2021-09-08 11:00:00.003] [task-70] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:00:00.003, threadName - task-70正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:01:59.984] [task-75] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:01:59.984, threadName - task-75正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:01:59.984] [task-77] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:01:59.984, threadName - task-77正在执行月无双预售发放礼包任务
+[2021-09-08 11:04:00.000] [task-81] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:04, threadName - task-81正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:04:00.001] [task-82] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:04:00.001, threadName - task-82正在执行月无双预售发放礼包任务
+[2021-09-08 11:06:00.002] [task-87] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:06:00.002, threadName - task-87正在执行月无双预售发放礼包任务
+[2021-09-08 11:06:00.002] [task-90] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:06:00.002, threadName - task-90正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:08:00.002] [task-93] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:08:00.002, threadName - task-93正在执行月无双预售发放礼包任务
+[2021-09-08 11:08:00.003] [task-95] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:08:00.003, threadName - task-95正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:10:00.002] [task-100] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:10:00.002, threadName - task-100正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:10:00.003] [task-101] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:10:00.003, threadName - task-101正在执行月无双预售发放礼包任务
+[2021-09-08 11:12:00.002] [task-105] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:12:00.002, threadName - task-105正在执行月无双预售发放礼包任务
+[2021-09-08 11:12:00.002] [task-106] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:12:00.002, threadName - task-106正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:14:00.008] [task-111] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:14:00.008, threadName - task-111正在执行月无双预售发放礼包任务
+[2021-09-08 11:14:00.009] [task-112] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:14:00.009, threadName - task-112正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:16:00.004] [task-117] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:16:00.004, threadName - task-117正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:16:00.004] [task-119] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:16:00.004, threadName - task-119正在执行月无双预售发放礼包任务
+[2021-09-08 11:17:57.947] [task-123] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:17:57.947, threadName - task-123正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:17:57.948] [task-124] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:17:57.948, threadName - task-124正在执行月无双预售发放礼包任务
+[2021-09-08 11:20:00.003] [task-129] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:20:00.003, threadName - task-129正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:20:00.004] [task-131] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:20:00.004, threadName - task-131正在执行月无双预售发放礼包任务
+[2021-09-08 11:22:18.550] [task-135] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:22:18.550, threadName - task-135正在执行月无双预售发放礼包任务
+[2021-09-08 11:22:18.550] [task-136] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:22:18.550, threadName - task-136正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:24:00.000] [task-141] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:24, threadName - task-141正在执行月无双预售发放礼包任务
+[2021-09-08 11:24:00.001] [task-142] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:24:00.001, threadName - task-142正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:26:00.004] [task-147] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:26:00.004, threadName - task-147正在执行月无双预售发放礼包任务
+[2021-09-08 11:26:00.004] [task-149] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:26:00.004, threadName - task-149正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:28:00.004] [task-153] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:28:00.004, threadName - task-153正在执行月无双预售发放礼包任务
+[2021-09-08 11:28:00.005] [task-154] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:28:00.005, threadName - task-154正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:30:01.959] [task-160] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:30:01.959, threadName - task-160正在执行月无双预售发放礼包任务
+[2021-09-08 11:30:01.959] [task-159] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:30:01.959, threadName - task-159正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:32:09.202] [task-165] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:32:09.202, threadName - task-165正在执行月无双预售发放礼包任务
+[2021-09-08 11:32:10.156] [task-166] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:32:10.156, threadName - task-166正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:34:05.843] [task-171] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:34:05.843, threadName - task-171正在执行月无双预售发放礼包任务
+[2021-09-08 11:34:05.844] [task-172] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:34:05.844, threadName - task-172正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:36:03.202] [task-177] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:36:03.201, threadName - task-177正在执行月无双预售发放礼包任务
+[2021-09-08 11:36:04.884] [task-178] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:36:04.884, threadName - task-178正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:39:54.845] [task-183] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:39:54.845, threadName - task-183正在执行月无双预售发放礼包任务
+[2021-09-08 11:39:54.846] [task-184] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:39:54.846, threadName - task-184正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:40:00.002] [task-185] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:40:00.002, threadName - task-185正在执行柳仙儿预售发放礼包任务
+[2021-09-08 11:40:00.002] [task-180] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:40:00.002, threadName - task-180正在执行月无双预售发放礼包任务
+[2021-09-08 11:54:54.625] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 11:54:54.676] [lettuce-nioEventLoop-7-2] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 11:58:19.665] [task-194] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:58:19.665, threadName - task-194正在执行月无双预售发放礼包任务
+[2021-09-08 11:58:19.665] [task-193] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T11:58:19.665, threadName - task-193正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:00:00.011] [task-202] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:00:00.011, threadName - task-202正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:00:00.011] [task-201] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:00:00.011, threadName - task-201正在执行月无双预售发放礼包任务
+[2021-09-08 12:02:00.006] [task-207] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:02:00.006, threadName - task-207正在执行月无双预售发放礼包任务
+[2021-09-08 12:02:00.007] [task-208] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:02:00.007, threadName - task-208正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:04:04.907] [task-213] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:04:04.907, threadName - task-213正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:04:04.908] [task-214] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:04:04.908, threadName - task-214正在执行月无双预售发放礼包任务
+[2021-09-08 12:06:00.006] [task-219] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:06:00.006, threadName - task-219正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:06:00.007] [task-220] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:06:00.007, threadName - task-220正在执行月无双预售发放礼包任务
+[2021-09-08 12:08:00.006] [task-225] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:08:00.006, threadName - task-225正在执行月无双预售发放礼包任务
+[2021-09-08 12:08:00.007] [task-226] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:08:00.007, threadName - task-226正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:10:00.007] [task-231] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:10:00.007, threadName - task-231正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:10:00.007] [task-232] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:10:00.007, threadName - task-232正在执行月无双预售发放礼包任务
+[2021-09-08 12:12:02.245] [task-237] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:12:02.245, threadName - task-237正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:12:02.247] [task-238] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:12:02.247, threadName - task-238正在执行月无双预售发放礼包任务
+[2021-09-08 12:14:02.433] [task-243] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:14:02.433, threadName - task-243正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:14:02.434] [task-244] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:14:02.434, threadName - task-244正在执行月无双预售发放礼包任务
+[2021-09-08 12:16:00.016] [task-249] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:16:00.016, threadName - task-249正在执行月无双预售发放礼包任务
+[2021-09-08 12:16:00.018] [task-250] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:16:00.017, threadName - task-250正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:16:34.558] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 12:16:34.559] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 12:16:45.516] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 22356 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 12:16:45.519] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 12:16:46.564] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 12:16:46.567] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 12:16:46.599] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-08 12:16:46.810] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 12:16:46.901] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 12:16:47.447] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 12:16:47.462] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 12:16:47.463] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 12:16:47.463] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 12:16:47.580] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 12:16:47.580] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+[2021-09-08 12:16:48.603] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 12:16:49.034] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 12:16:49.034] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 12:16:50.297] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 12:16:50.723] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 12:16:51.770] [main] INFO  o.s.cloud.commons.util.InetUtils : Cannot determine local hostname
+[2021-09-08 12:16:51.897] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 12:16:51.920] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 12:16:51.942] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 8.278 seconds (JVM running for 9.508)
+[2021-09-08 12:16:54.807] [http-nio-5090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 12:18:13.514] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:18:13.514, threadName - task-3正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:18:13.514] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:18:13.514, threadName - task-4正在执行月无双预售发放礼包任务
+[2021-09-08 12:18:15.941] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 12:18:15.941] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 12:18:21.793] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 22371 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 12:18:21.800] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 12:18:23.115] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 12:18:23.119] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 12:18:23.156] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[2021-09-08 12:18:23.397] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 12:18:23.492] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 12:18:23.992] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 12:18:24.003] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 12:18:24.004] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 12:18:24.004] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 12:18:24.143] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 12:18:24.144] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2209 ms
+[2021-09-08 12:18:25.241] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 12:18:25.646] [redisson-netty-4-5] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 12:18:25.646] [redisson-netty-4-7] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 12:18:26.872] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 12:18:27.279] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 12:18:27.446] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 12:18:27.475] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 12:18:27.497] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 6.654 seconds (JVM running for 7.856)
+[2021-09-08 12:18:34.211] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 12:20:00.011] [task-6] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:20:00.011, threadName - task-6正在执行月无双预售发放礼包任务
+[2021-09-08 12:20:00.011] [task-5] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:20:00.011, threadName - task-5正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:50:52.522] [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 12:50:52.568] [lettuce-nioEventLoop-7-2] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 12:56:48.970] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:56:48.970, threadName - task-11正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:56:48.972] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:56:48.971, threadName - task-12正在执行月无双预售发放礼包任务
+[2021-09-08 12:58:00.015] [task-19] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:58:00.015, threadName - task-19正在执行柳仙儿预售发放礼包任务
+[2021-09-08 12:58:00.015] [task-20] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T12:58:00.015, threadName - task-20正在执行月无双预售发放礼包任务
+[2021-09-08 13:14:59.032] [lettuce-eventExecutorLoop-1-10] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 13:14:59.054] [lettuce-nioEventLoop-7-3] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 13:31:20.254] [task-25] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T13:31:20.254, threadName - task-25正在执行柳仙儿预售发放礼包任务
+[2021-09-08 13:31:20.255] [task-26] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T13:31:20.255, threadName - task-26正在执行月无双预售发放礼包任务
+[2021-09-08 13:31:20.326] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 13:31:20.343] [lettuce-nioEventLoop-7-4] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 13:49:01.892] [task-29] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T13:49:01.892, threadName - task-29正在执行柳仙儿预售发放礼包任务
+[2021-09-08 13:49:01.892] [task-31] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T13:49:01.892, threadName - task-31正在执行月无双预售发放礼包任务
+[2021-09-08 13:49:01.909] [lettuce-eventExecutorLoop-1-10] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 13:49:01.917] [lettuce-nioEventLoop-7-5] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 14:06:35.471] [task-33] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:06:35.471, threadName - task-33正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:06:35.476] [task-36] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:06:35.476, threadName - task-36正在执行月无双预售发放礼包任务
+[2021-09-08 14:06:35.575] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 14:06:35.590] [lettuce-nioEventLoop-7-6] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 14:17:00.996] [lettuce-eventExecutorLoop-1-6] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 14:17:01.029] [lettuce-nioEventLoop-7-7] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 14:17:25.225] [task-39] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:17:25.225, threadName - task-39正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:17:25.226] [task-40] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:17:25.226, threadName - task-40正在执行月无双预售发放礼包任务
+[2021-09-08 14:18:00.000] [task-43] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:18, threadName - task-43正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:18:00.001] [task-44] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:18:00.001, threadName - task-44正在执行月无双预售发放礼包任务
+[2021-09-08 14:19:59.997] [task-49] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:19:59.997, threadName - task-49正在执行月无双预售发放礼包任务
+[2021-09-08 14:19:59.998] [task-50] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:19:59.997, threadName - task-50正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:22:03.881] [task-55] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:22:03.881, threadName - task-55正在执行月无双预售发放礼包任务
+[2021-09-08 14:22:03.882] [task-56] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:22:03.882, threadName - task-56正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:24:02.560] [task-61] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:24:02.560, threadName - task-61正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:24:02.561] [task-62] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:24:02.561, threadName - task-62正在执行月无双预售发放礼包任务
+[2021-09-08 14:26:01.463] [task-67] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:26:01.463, threadName - task-67正在执行月无双预售发放礼包任务
+[2021-09-08 14:26:01.464] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:26:01.464, threadName - task-68正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:29:52.866] [task-74] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:29:52.866, threadName - task-74正在执行月无双预售发放礼包任务
+[2021-09-08 14:29:52.866] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:29:52.865, threadName - task-73正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:30:00.003] [task-77] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:30:00.003, threadName - task-77正在执行月无双预售发放礼包任务
+[2021-09-08 14:30:00.003] [task-78] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:30:00.003, threadName - task-78正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:32:00.000] [task-81] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:32, threadName - task-81正在执行月无双预售发放礼包任务
+[2021-09-08 14:32:00.000] [task-82] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:32, threadName - task-82正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:33:59.993] [task-87] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:33:59.993, threadName - task-87正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:33:59.994] [task-88] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:33:59.994, threadName - task-88正在执行月无双预售发放礼包任务
+[2021-09-08 14:35:59.997] [task-93] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:35:59.997, threadName - task-93正在执行月无双预售发放礼包任务
+[2021-09-08 14:35:59.998] [task-94] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:35:59.998, threadName - task-94正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:37:59.998] [task-99] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:37:59.998, threadName - task-99正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:37:59.998] [task-100] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:37:59.998, threadName - task-100正在执行月无双预售发放礼包任务
+[2021-09-08 14:39:59.998] [task-105] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:39:59.998, threadName - task-105正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:39:59.998] [task-106] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:39:59.998, threadName - task-106正在执行月无双预售发放礼包任务
+[2021-09-08 14:41:59.998] [task-111] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:41:59.998, threadName - task-111正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:41:59.999] [task-112] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:41:59.999, threadName - task-112正在执行月无双预售发放礼包任务
+[2021-09-08 14:43:59.998] [task-117] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:43:59.998, threadName - task-117正在执行月无双预售发放礼包任务
+[2021-09-08 14:43:59.999] [task-118] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:43:59.999, threadName - task-118正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:45:59.998] [task-123] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:45:59.998, threadName - task-123正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:45:59.998] [task-124] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:45:59.998, threadName - task-124正在执行月无双预售发放礼包任务
+[2021-09-08 14:48:01.180] [task-129] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:48:01.180, threadName - task-129正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:48:01.181] [task-130] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:48:01.181, threadName - task-130正在执行月无双预售发放礼包任务
+[2021-09-08 14:50:00.006] [task-137] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:50:00.006, threadName - task-137正在执行月无双预售发放礼包任务
+[2021-09-08 14:50:00.007] [task-138] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:50:00.007, threadName - task-138正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:52:00.006] [task-144] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:52:00.006, threadName - task-144正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:52:00.006] [task-143] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:52:00.006, threadName - task-143正在执行月无双预售发放礼包任务
+[2021-09-08 14:54:00.007] [task-149] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:54:00.007, threadName - task-149正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:54:00.007] [task-150] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:54:00.007, threadName - task-150正在执行月无双预售发放礼包任务
+[2021-09-08 14:56:00.008] [task-155] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:56:00.008, threadName - task-155正在执行月无双预售发放礼包任务
+[2021-09-08 14:56:00.010] [task-156] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:56:00.010, threadName - task-156正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:58:00.003] [task-161] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:58:00.003, threadName - task-161正在执行柳仙儿预售发放礼包任务
+[2021-09-08 14:58:00.004] [task-162] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T14:58:00.004, threadName - task-162正在执行月无双预售发放礼包任务
+[2021-09-08 15:00:00.007] [task-167] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:00:00.007, threadName - task-167正在执行月无双预售发放礼包任务
+[2021-09-08 15:00:00.007] [task-168] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:00:00.007, threadName - task-168正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:02:00.006] [task-173] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:02:00.006, threadName - task-173正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:02:00.007] [task-174] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:02:00.007, threadName - task-174正在执行月无双预售发放礼包任务
+[2021-09-08 15:04:00.004] [task-179] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:04:00.004, threadName - task-179正在执行月无双预售发放礼包任务
+[2021-09-08 15:04:00.004] [task-180] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:04:00.004, threadName - task-180正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:06:00.014] [task-186] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:06:00.013, threadName - task-186正在执行月无双预售发放礼包任务
+[2021-09-08 15:06:00.014] [task-185] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:06:00.013, threadName - task-185正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:08:00.004] [task-192] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:08:00.004, threadName - task-192正在执行月无双预售发放礼包任务
+[2021-09-08 15:08:00.004] [task-191] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:08:00.004, threadName - task-191正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:10:00.007] [task-197] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:10:00.007, threadName - task-197正在执行月无双预售发放礼包任务
+[2021-09-08 15:10:00.015] [task-198] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:10:00.013, threadName - task-198正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:12:00.006] [task-203] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:12:00.006, threadName - task-203正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:12:00.007] [task-204] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:12:00.007, threadName - task-204正在执行月无双预售发放礼包任务
+[2021-09-08 15:14:00.007] [task-209] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:14:00.007, threadName - task-209正在执行月无双预售发放礼包任务
+[2021-09-08 15:14:00.008] [task-210] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:14:00.008, threadName - task-210正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:16:00.006] [task-215] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:16:00.006, threadName - task-215正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:16:00.007] [task-216] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:16:00.007, threadName - task-216正在执行月无双预售发放礼包任务
+[2021-09-08 15:18:00.008] [task-221] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:18:00.008, threadName - task-221正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:18:00.009] [task-222] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:18:00.009, threadName - task-222正在执行月无双预售发放礼包任务
+[2021-09-08 15:18:44.597] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 15:18:44.600] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:18:51.942] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 23218 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 15:18:51.950] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 15:18:53.100] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 15:18:53.104] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 15:18:53.139] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[2021-09-08 15:18:53.388] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 15:18:53.480] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 15:18:53.994] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 15:18:54.007] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:18:54.008] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 15:18:54.008] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 15:18:54.154] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 15:18:54.155] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2104 ms
+[2021-09-08 15:18:55.251] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 15:18:55.660] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:18:55.660] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:18:56.792] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:18:57.179] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 15:18:57.320] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:18:57.342] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 15:18:57.364] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 6.397 seconds (JVM running for 7.604)
+[2021-09-08 15:19:08.655] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 15:19:59.982] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:19:59.982, threadName - task-4正在执行月无双预售发放礼包任务
+[2021-09-08 15:19:59.982] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:19:59.982, threadName - task-3正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:22:03.266] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:22:03.266, threadName - task-11正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:22:03.267] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:22:03.267, threadName - task-12正在执行月无双预售发放礼包任务
+[2021-09-08 15:22:38.076] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 15:22:38.077] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:22:44.949] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 23259 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 15:22:44.956] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 15:22:46.151] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 15:22:46.158] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 15:22:46.191] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-08 15:22:46.426] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 15:22:46.505] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 15:22:46.994] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 15:22:47.007] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:22:47.008] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 15:22:47.008] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 15:22:47.143] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 15:22:47.144] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2089 ms
+[2021-09-08 15:22:48.168] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 15:22:48.580] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:22:48.580] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:22:49.680] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:22:50.027] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 15:22:50.178] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:22:50.194] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 15:22:50.212] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 6.203 seconds (JVM running for 7.569)
+[2021-09-08 15:22:59.673] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 15:24:00.009] [task-6] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:24:00.009, threadName - task-6正在执行月无双预售发放礼包任务
+[2021-09-08 15:24:00.009] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:24:00.009, threadName - task-4正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:24:01.764] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 15:24:01.765] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:24:07.069] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 23277 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 15:24:07.075] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 15:24:08.257] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 15:24:08.259] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 15:24:08.289] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[2021-09-08 15:24:08.528] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 15:24:08.618] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 15:24:09.115] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 15:24:09.128] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:24:09.129] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 15:24:09.130] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 15:24:09.273] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 15:24:09.274] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2087 ms
+[2021-09-08 15:24:10.333] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 15:24:10.692] [redisson-netty-4-6] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:24:10.692] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:24:11.809] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:24:12.144] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 15:24:12.291] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:24:12.307] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 15:24:12.324] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 6.138 seconds (JVM running for 7.41)
+[2021-09-08 15:26:00.007] [task-6] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:26:00.007, threadName - task-6正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:26:00.007] [task-5] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:26:00.007, threadName - task-5正在执行月无双预售发放礼包任务
+[2021-09-08 15:28:00.007] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:28:00.007, threadName - task-11正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:28:00.007] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:28:00.007, threadName - task-12正在执行月无双预售发放礼包任务
+[2021-09-08 15:28:39.231] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 15:28:39.232] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:28:44.365] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 23328 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 15:28:44.368] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 15:28:45.348] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 15:28:45.350] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 15:28:45.372] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+[2021-09-08 15:28:45.486] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 15:28:45.599] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 15:28:46.065] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 15:28:46.077] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:28:46.078] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 15:28:46.078] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 15:28:46.184] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 15:28:46.184] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1754 ms
+[2021-09-08 15:28:47.048] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 15:28:47.286] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:28:47.286] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:28:48.091] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:28:48.329] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 15:28:48.429] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:28:48.441] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 15:28:48.455] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 4.846 seconds (JVM running for 5.72)
+[2021-09-08 15:30:00.008] [task-5] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:30:00.008, threadName - task-5正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:30:00.008] [task-6] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:30:00.008, threadName - task-6正在执行月无双预售发放礼包任务
+[2021-09-08 15:31:17.653] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 15:32:00.006] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:32:00.006, threadName - task-11正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:32:00.007] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:32:00.007, threadName - task-12正在执行月无双预售发放礼包任务
+[2021-09-08 15:34:00.007] [task-17] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:34:00.007, threadName - task-17正在执行月无双预售发放礼包任务
+[2021-09-08 15:34:00.007] [task-18] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:34:00.007, threadName - task-18正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:34:44.767] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 15:34:44.768] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:34:49.808] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 23403 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 15:34:49.812] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 15:34:50.581] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 15:34:50.584] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 15:34:50.606] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[2021-09-08 15:34:50.731] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 15:34:50.797] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 15:34:51.166] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 15:34:51.174] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:34:51.175] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 15:34:51.175] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 15:34:51.252] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 15:34:51.252] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+[2021-09-08 15:34:51.891] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 15:34:52.091] [redisson-netty-4-7] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:34:52.091] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 15:34:52.852] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 15:34:53.114] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 15:34:53.213] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 15:34:53.225] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 15:34:53.238] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 4.017 seconds (JVM running for 4.817)
+[2021-09-08 15:35:31.779] [http-nio-5090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-08 15:36:00.008] [task-5] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:36:00.008, threadName - task-5正在执行月无双预售发放礼包任务
+[2021-09-08 15:36:00.008] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:36:00.008, threadName - task-4正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:38:00.008] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:38:00.008, threadName - task-11正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:38:00.008] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:38:00.008, threadName - task-12正在执行月无双预售发放礼包任务
+[2021-09-08 15:40:00.010] [task-17] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:40:00.010, threadName - task-17正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:40:00.010] [task-18] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:40:00.010, threadName - task-18正在执行月无双预售发放礼包任务
+[2021-09-08 15:42:00.004] [task-23] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:42:00.004, threadName - task-23正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:42:00.005] [task-24] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:42:00.005, threadName - task-24正在执行月无双预售发放礼包任务
+[2021-09-08 15:44:00.004] [task-29] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:44:00.004, threadName - task-29正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:44:00.005] [task-30] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:44:00.005, threadName - task-30正在执行月无双预售发放礼包任务
+[2021-09-08 15:46:00.007] [task-35] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:46:00.007, threadName - task-35正在执行月无双预售发放礼包任务
+[2021-09-08 15:46:00.007] [task-36] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:46:00.007, threadName - task-36正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:47:59.997] [task-39] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:47:59.997, threadName - task-39正在执行月无双预售发放礼包任务
+[2021-09-08 15:47:59.998] [task-40] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:47:59.998, threadName - task-40正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:50:09.975] [task-48] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:50:09.975, threadName - task-48正在执行月无双预售发放礼包任务
+[2021-09-08 15:50:09.974] [task-47] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:50:09.974, threadName - task-47正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:51:15.897] [http-nio-5090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-09-08 15:51:16.443] [http-nio-5090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-09-08 15:52:00.003] [task-53] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:52:00.003, threadName - task-53正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:52:00.004] [task-54] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:52:00.004, threadName - task-54正在执行月无双预售发放礼包任务
+[2021-09-08 15:54:00.005] [task-59] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:54:00.005, threadName - task-59正在执行月无双预售发放礼包任务
+[2021-09-08 15:54:00.006] [task-60] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:54:00.006, threadName - task-60正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:56:00.006] [task-65] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:56:00.006, threadName - task-65正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:56:00.006] [task-66] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:56:00.006, threadName - task-66正在执行月无双预售发放礼包任务
+[2021-09-08 15:58:00.006] [task-71] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:58:00.006, threadName - task-71正在执行柳仙儿预售发放礼包任务
+[2021-09-08 15:58:00.006] [task-72] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T15:58:00.006, threadName - task-72正在执行月无双预售发放礼包任务
+[2021-09-08 16:00:00.008] [task-77] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:00:00.007, threadName - task-77正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:00:00.008] [task-78] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:00:00.008, threadName - task-78正在执行月无双预售发放礼包任务
+[2021-09-08 16:02:00.012] [task-83] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:02:00.011, threadName - task-83正在执行月无双预售发放礼包任务
+[2021-09-08 16:02:00.012] [task-84] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:02:00.012, threadName - task-84正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:04:00.009] [task-89] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:04:00.009, threadName - task-89正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:04:00.009] [task-90] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:04:00.009, threadName - task-90正在执行月无双预售发放礼包任务
+[2021-09-08 16:06:00.010] [task-95] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:06:00.010, threadName - task-95正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:06:00.011] [task-96] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:06:00.011, threadName - task-96正在执行月无双预售发放礼包任务
+[2021-09-08 16:08:00.011] [task-101] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:08:00.011, threadName - task-101正在执行月无双预售发放礼包任务
+[2021-09-08 16:08:00.011] [task-102] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:08:00.011, threadName - task-102正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:10:00.013] [task-107] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:10:00.013, threadName - task-107正在执行月无双预售发放礼包任务
+[2021-09-08 16:10:00.013] [task-108] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:10:00.013, threadName - task-108正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:12:00.012] [task-113] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:12:00.012, threadName - task-113正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:12:00.012] [task-114] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:12:00.012, threadName - task-114正在执行月无双预售发放礼包任务
+[2021-09-08 16:14:00.007] [task-119] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:14:00.007, threadName - task-119正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:14:00.008] [task-120] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:14:00.007, threadName - task-120正在执行月无双预售发放礼包任务
+[2021-09-08 16:16:00.012] [task-126] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:16:00.012, threadName - task-126正在执行月无双预售发放礼包任务
+[2021-09-08 16:16:00.012] [task-125] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:16:00.012, threadName - task-125正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:18:00.005] [task-131] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:18:00.005, threadName - task-131正在执行月无双预售发放礼包任务
+[2021-09-08 16:18:00.005] [task-132] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:18:00.005, threadName - task-132正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:20:00.003] [task-137] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:20:00.003, threadName - task-137正在执行月无双预售发放礼包任务
+[2021-09-08 16:20:00.004] [task-138] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:20:00.004, threadName - task-138正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:22:00.006] [task-143] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:22:00.006, threadName - task-143正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:22:00.006] [task-144] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:22:00.006, threadName - task-144正在执行月无双预售发放礼包任务
+[2021-09-08 16:24:00.007] [task-149] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:24:00.007, threadName - task-149正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:24:00.008] [task-150] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:24:00.008, threadName - task-150正在执行月无双预售发放礼包任务
+[2021-09-08 16:26:00.006] [task-155] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:26:00.006, threadName - task-155正在执行月无双预售发放礼包任务
+[2021-09-08 16:26:00.006] [task-156] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:26:00.006, threadName - task-156正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:28:00.006] [task-161] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:28:00.006, threadName - task-161正在执行月无双预售发放礼包任务
+[2021-09-08 16:28:00.006] [task-162] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:28:00.006, threadName - task-162正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:30:00.009] [task-167] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:30:00.009, threadName - task-167正在执行月无双预售发放礼包任务
+[2021-09-08 16:30:00.010] [task-168] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:30:00.010, threadName - task-168正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:32:00.010] [task-174] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:32:00.009, threadName - task-174正在执行月无双预售发放礼包任务
+[2021-09-08 16:32:00.010] [task-173] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:32:00.009, threadName - task-173正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:33:59.975] [task-177] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:33:59.975, threadName - task-177正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:33:59.975] [task-178] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:33:59.975, threadName - task-178正在执行月无双预售发放礼包任务
+[2021-09-08 16:36:00.005] [task-185] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:36:00.005, threadName - task-185正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:36:00.005] [task-186] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:36:00.005, threadName - task-186正在执行月无双预售发放礼包任务
+[2021-09-08 16:38:00.006] [task-191] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:38:00.006, threadName - task-191正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:38:00.006] [task-192] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:38:00.006, threadName - task-192正在执行月无双预售发放礼包任务
+[2021-09-08 16:40:00.007] [task-197] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:40:00.007, threadName - task-197正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:40:00.007] [task-198] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:40:00.007, threadName - task-198正在执行月无双预售发放礼包任务
+[2021-09-08 16:42:00.005] [task-203] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:42:00.005, threadName - task-203正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:42:00.005] [task-204] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:42:00.005, threadName - task-204正在执行月无双预售发放礼包任务
+[2021-09-08 16:44:00.003] [task-209] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:44:00.003, threadName - task-209正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:44:00.004] [task-210] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:44:00.004, threadName - task-210正在执行月无双预售发放礼包任务
+[2021-09-08 16:46:00.005] [task-216] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:46:00.005, threadName - task-216正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:46:00.005] [task-215] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:46:00.005, threadName - task-215正在执行月无双预售发放礼包任务
+[2021-09-08 16:47:59.988] [task-221] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:47:59.988, threadName - task-221正在执行月无双预售发放礼包任务
+[2021-09-08 16:47:59.988] [task-222] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:47:59.988, threadName - task-222正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:50:00.004] [task-225] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:50:00.004, threadName - task-225正在执行月无双预售发放礼包任务
+[2021-09-08 16:50:00.004] [task-226] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:50:00.004, threadName - task-226正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:52:00.007] [task-233] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:52:00.007, threadName - task-233正在执行月无双预售发放礼包任务
+[2021-09-08 16:52:00.007] [task-234] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:52:00.007, threadName - task-234正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:54:00.006] [task-239] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:54:00.006, threadName - task-239正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:54:00.006] [task-240] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:54:00.006, threadName - task-240正在执行月无双预售发放礼包任务
+[2021-09-08 16:56:00.007] [task-245] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:56:00.007, threadName - task-245正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:56:00.007] [task-246] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:56:00.007, threadName - task-246正在执行月无双预售发放礼包任务
+[2021-09-08 16:58:00.006] [task-251] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:58:00.006, threadName - task-251正在执行柳仙儿预售发放礼包任务
+[2021-09-08 16:58:00.006] [task-252] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T16:58:00.006, threadName - task-252正在执行月无双预售发放礼包任务
+[2021-09-08 17:00:00.005] [task-257] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:00:00.005, threadName - task-257正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:00:00.005] [task-258] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:00:00.005, threadName - task-258正在执行月无双预售发放礼包任务
+[2021-09-08 17:02:00.003] [task-264] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:02:00.003, threadName - task-264正在执行月无双预售发放礼包任务
+[2021-09-08 17:02:00.003] [task-263] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:02:00.003, threadName - task-263正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:04:00.003] [task-269] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:04:00.003, threadName - task-269正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:04:00.004] [task-270] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:04:00.004, threadName - task-270正在执行月无双预售发放礼包任务
+[2021-09-08 17:06:00.006] [task-275] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:06:00.006, threadName - task-275正在执行月无双预售发放礼包任务
+[2021-09-08 17:06:00.006] [task-276] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:06:00.006, threadName - task-276正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:08:00.008] [task-281] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:08:00.008, threadName - task-281正在执行月无双预售发放礼包任务
+[2021-09-08 17:08:00.009] [task-282] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:08:00.009, threadName - task-282正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:10:00.004] [task-287] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:10:00.004, threadName - task-287正在执行月无双预售发放礼包任务
+[2021-09-08 17:10:00.005] [task-288] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:10:00.005, threadName - task-288正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:12:00.007] [task-293] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:12:00.007, threadName - task-293正在执行月无双预售发放礼包任务
+[2021-09-08 17:12:00.008] [task-294] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:12:00.008, threadName - task-294正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:14:00.007] [task-300] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:14:00.007, threadName - task-300正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:14:00.008] [task-299] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:14:00.008, threadName - task-299正在执行月无双预售发放礼包任务
+[2021-09-08 17:16:00.008] [task-305] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:16:00.008, threadName - task-305正在执行月无双预售发放礼包任务
+[2021-09-08 17:16:00.009] [task-306] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:16:00.009, threadName - task-306正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:18:00.008] [task-311] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:18:00.008, threadName - task-311正在执行月无双预售发放礼包任务
+[2021-09-08 17:18:00.009] [task-312] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:18:00.009, threadName - task-312正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:19:59.948] [task-315] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:19:59.948, threadName - task-315正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:19:59.947] [task-316] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:19:59.947, threadName - task-316正在执行月无双预售发放礼包任务
+[2021-09-08 17:22:00.006] [task-323] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:22:00.006, threadName - task-323正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:22:00.007] [task-324] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:22:00.007, threadName - task-324正在执行月无双预售发放礼包任务
+[2021-09-08 17:24:00.005] [task-330] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:24:00.005, threadName - task-330正在执行月无双预售发放礼包任务
+[2021-09-08 17:24:00.005] [task-329] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:24:00.005, threadName - task-329正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:26:00.006] [task-336] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:26:00.006, threadName - task-336正在执行月无双预售发放礼包任务
+[2021-09-08 17:26:00.006] [task-335] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:26:00.006, threadName - task-335正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:28:00.005] [task-341] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:28:00.005, threadName - task-341正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:28:00.005] [task-342] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:28:00.005, threadName - task-342正在执行月无双预售发放礼包任务
+[2021-09-08 17:30:00.007] [task-347] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:30:00.007, threadName - task-347正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:30:00.007] [task-348] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:30:00.007, threadName - task-348正在执行月无双预售发放礼包任务
+[2021-09-08 17:32:00.007] [task-353] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:32:00.007, threadName - task-353正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:32:00.007] [task-354] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:32:00.007, threadName - task-354正在执行月无双预售发放礼包任务
+[2021-09-08 17:34:00.007] [task-359] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:34:00.007, threadName - task-359正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:34:00.008] [task-360] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:34:00.008, threadName - task-360正在执行月无双预售发放礼包任务
+[2021-09-08 17:36:00.005] [task-365] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:36:00.005, threadName - task-365正在执行月无双预售发放礼包任务
+[2021-09-08 17:36:00.005] [task-366] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:36:00.005, threadName - task-366正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:38:00.006] [task-371] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:38:00.006, threadName - task-371正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:38:00.006] [task-372] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:38:00.006, threadName - task-372正在执行月无双预售发放礼包任务
+[2021-09-08 17:40:00.007] [task-378] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:40:00.007, threadName - task-378正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:40:00.007] [task-377] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:40:00.007, threadName - task-377正在执行月无双预售发放礼包任务
+[2021-09-08 17:42:00.007] [task-384] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:42:00.007, threadName - task-384正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:42:00.007] [task-383] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:42:00.007, threadName - task-383正在执行月无双预售发放礼包任务
+[2021-09-08 17:44:00.006] [task-390] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:44:00.006, threadName - task-390正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:44:00.005] [task-389] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:44:00.005, threadName - task-389正在执行月无双预售发放礼包任务
+[2021-09-08 17:46:00.006] [task-395] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:46:00.006, threadName - task-395正在执行月无双预售发放礼包任务
+[2021-09-08 17:46:00.006] [task-396] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:46:00.006, threadName - task-396正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:48:00.005] [task-401] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:48:00.005, threadName - task-401正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:48:00.005] [task-402] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:48:00.005, threadName - task-402正在执行月无双预售发放礼包任务
+[2021-09-08 17:50:00.002] [task-407] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:50:00.002, threadName - task-407正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:50:00.003] [task-408] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:50:00.003, threadName - task-408正在执行月无双预售发放礼包任务
+[2021-09-08 17:52:00.013] [task-414] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:52:00.013, threadName - task-414正在执行月无双预售发放礼包任务
+[2021-09-08 17:52:00.014] [task-413] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:52:00.014, threadName - task-413正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:54:00.005] [task-420] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:54:00.005, threadName - task-420正在执行月无双预售发放礼包任务
+[2021-09-08 17:54:00.006] [task-419] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:54:00.006, threadName - task-419正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:56:00.006] [task-425] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:56:00.006, threadName - task-425正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:56:00.006] [task-426] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:56:00.006, threadName - task-426正在执行月无双预售发放礼包任务
+[2021-09-08 17:58:00.007] [task-432] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:58:00.007, threadName - task-432正在执行柳仙儿预售发放礼包任务
+[2021-09-08 17:58:00.007] [task-431] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T17:58:00.007, threadName - task-431正在执行月无双预售发放礼包任务
+[2021-09-08 18:00:00.006] [task-437] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:00:00.006, threadName - task-437正在执行月无双预售发放礼包任务
+[2021-09-08 18:00:00.007] [task-438] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:00:00.007, threadName - task-438正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:02:00.006] [task-444] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:02:00.006, threadName - task-444正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:02:00.007] [task-443] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:02:00.007, threadName - task-443正在执行月无双预售发放礼包任务
+[2021-09-08 18:04:00.007] [task-450] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:04:00.007, threadName - task-450正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:04:00.006] [task-449] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:04:00.006, threadName - task-449正在执行月无双预售发放礼包任务
+[2021-09-08 18:06:00.006] [task-455] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:06:00.006, threadName - task-455正在执行月无双预售发放礼包任务
+[2021-09-08 18:06:00.006] [task-456] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:06:00.006, threadName - task-456正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:08:00.005] [task-462] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:08:00.005, threadName - task-462正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:08:00.005] [task-461] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:08:00.005, threadName - task-461正在执行月无双预售发放礼包任务
+[2021-09-08 18:09:59.988] [task-465] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:09:59.988, threadName - task-465正在执行月无双预售发放礼包任务
+[2021-09-08 18:09:59.989] [task-466] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:09:59.989, threadName - task-466正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:12:00.004] [task-473] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:12:00.004, threadName - task-473正在执行月无双预售发放礼包任务
+[2021-09-08 18:12:00.005] [task-474] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:12:00.005, threadName - task-474正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:14:00.008] [task-479] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:14:00.008, threadName - task-479正在执行月无双预售发放礼包任务
+[2021-09-08 18:14:00.008] [task-480] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:14:00.008, threadName - task-480正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:16:00.007] [task-486] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:16:00.007, threadName - task-486正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:16:00.007] [task-485] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:16:00.007, threadName - task-485正在执行月无双预售发放礼包任务
+[2021-09-08 18:18:00.005] [task-491] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:18:00.005, threadName - task-491正在执行月无双预售发放礼包任务
+[2021-09-08 18:18:00.005] [task-492] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:18:00.005, threadName - task-492正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:20:00.008] [task-497] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:20:00.008, threadName - task-497正在执行月无双预售发放礼包任务
+[2021-09-08 18:20:00.009] [task-498] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:20:00.009, threadName - task-498正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:22:00.007] [task-503] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:22:00.007, threadName - task-503正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:22:00.008] [task-504] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:22:00.008, threadName - task-504正在执行月无双预售发放礼包任务
+[2021-09-08 18:23:59.985] [task-509] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:23:59.985, threadName - task-509正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:23:59.985] [task-510] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:23:59.985, threadName - task-510正在执行月无双预售发放礼包任务
+[2021-09-08 18:25:59.996] [task-513] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:25:59.996, threadName - task-513正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:25:59.996] [task-514] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:25:59.996, threadName - task-514正在执行月无双预售发放礼包任务
+[2021-09-08 18:28:00.004] [task-521] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:28:00.004, threadName - task-521正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:28:00.004] [task-522] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:28:00.004, threadName - task-522正在执行月无双预售发放礼包任务
+[2021-09-08 18:30:00.003] [task-527] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:30:00.003, threadName - task-527正在执行月无双预售发放礼包任务
+[2021-09-08 18:30:00.003] [task-528] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:30:00.003, threadName - task-528正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:31:53.553] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-08 18:31:53.558] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-08 18:31:53.583] [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+[2021-09-08 18:31:53.594] [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+[2021-09-08 18:32:04.826] [main] INFO  com.miniw.fesweb.FesWebApplication : Starting FesWebApplication using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 25298 (/Users/blacker/IdeaProjects/mini-festival/fes-web/target/classes started by blacker in /Users/blacker/IdeaProjects/mini-festival)
+[2021-09-08 18:32:04.829] [main] INFO  com.miniw.fesweb.FesWebApplication : The following profiles are active: dev
+[2021-09-08 18:32:05.912] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-08 18:32:05.914] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-08 18:32:05.945] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-08 18:32:06.205] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-08 18:32:06.301] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=49b9491e-e1c8-35ae-8003-390f7cacad72
+[2021-09-08 18:32:06.881] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 5090 (http)
+[2021-09-08 18:32:06.896] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-5090"]
+[2021-09-08 18:32:06.897] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-08 18:32:06.897] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-09-08 18:32:07.030] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-08 18:32:07.030] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2133 ms
+[2021-09-08 18:32:08.150] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-08 18:32:08.544] [redisson-netty-4-6] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 18:32:08.544] [redisson-netty-4-5] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-08 18:32:09.917] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-08 18:32:10.398] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-08 18:32:11.445] [main] INFO  o.s.cloud.commons.util.InetUtils : Cannot determine local hostname
+[2021-09-08 18:32:11.557] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-5090"]
+[2021-09-08 18:32:11.580] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 5090 (http) with context path ''
+[2021-09-08 18:32:12.584] [main] INFO  o.s.cloud.commons.util.InetUtils : Cannot determine local hostname
+[2021-09-08 18:32:12.600] [main] INFO  com.miniw.fesweb.FesWebApplication : Started FesWebApplication in 9.751 seconds (JVM running for 11.212)
+[2021-09-08 18:34:00.011] [task-5] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:34:00.011, threadName - task-5正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:34:00.011] [task-6] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:34:00.011, threadName - task-6正在执行月无双预售发放礼包任务
+[2021-09-08 18:36:00.006] [task-11] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:36:00.006, threadName - task-11正在执行月无双预售发放礼包任务
+[2021-09-08 18:36:00.006] [task-12] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:36:00.006, threadName - task-12正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:38:00.007] [task-17] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:38:00.007, threadName - task-17正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:38:00.008] [task-18] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:38:00.008, threadName - task-18正在执行月无双预售发放礼包任务
+[2021-09-08 18:40:00.035] [task-23] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:40:00.035, threadName - task-23正在执行月无双预售发放礼包任务
+[2021-09-08 18:40:00.036] [task-24] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:40:00.036, threadName - task-24正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:42:00.005] [task-29] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:42:00.005, threadName - task-29正在执行月无双预售发放礼包任务
+[2021-09-08 18:42:00.005] [task-30] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:42:00.005, threadName - task-30正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:44:00.008] [task-35] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:44:00.008, threadName - task-35正在执行月无双预售发放礼包任务
+[2021-09-08 18:44:00.008] [task-36] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:44:00.008, threadName - task-36正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:46:00.006] [task-41] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:46:00.006, threadName - task-41正在执行月无双预售发放礼包任务
+[2021-09-08 18:46:00.007] [task-42] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:46:00.007, threadName - task-42正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:48:00.008] [task-47] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:48:00.008, threadName - task-47正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:48:00.008] [task-48] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:48:00.008, threadName - task-48正在执行月无双预售发放礼包任务
+[2021-09-08 18:50:00.004] [task-53] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:50:00.004, threadName - task-53正在执行柳仙儿预售发放礼包任务
+[2021-09-08 18:50:00.004] [task-54] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T18:50:00.004, threadName - task-54正在执行月无双预售发放礼包任务
+[2021-09-08 19:20:51.564] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 19:20:51.595] [lettuce-nioEventLoop-7-2] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-08 19:21:51.122] [task-59] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T19:21:51.122, threadName - task-59正在执行柳仙儿预售发放礼包任务
+[2021-09-08 19:21:51.123] [task-60] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T19:21:51.123, threadName - task-60正在执行月无双预售发放礼包任务
+[2021-09-08 19:22:00.013] [task-63] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T19:22:00.013, threadName - task-63正在执行月无双预售发放礼包任务
+[2021-09-08 19:22:00.014] [task-64] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T19:22:00.014, threadName - task-64正在执行柳仙儿预售发放礼包任务
+[2021-09-08 19:42:48.605] [lettuce-eventExecutorLoop-1-8] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was /10.0.0.203:6379
+[2021-09-08 19:44:46.885] [lettuce-eventExecutorLoop-1-8] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 19:44:55.099] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 19:45:41.190] [lettuce-eventExecutorLoop-1-1] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:00:35.343] [task-71] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:00:35.343, threadName - task-71正在执行月无双预售发放礼包任务
+[2021-09-08 20:00:35.344] [task-72] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:00:35.344, threadName - task-72正在执行柳仙儿预售发放礼包任务
+[2021-09-08 20:15:46.151] [lettuce-eventExecutorLoop-1-4] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:31:04.379] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:31:34.484] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:31:36.495] [task-69] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:31:36.495, threadName - task-69正在执行月无双预售发放礼包任务
+[2021-09-08 20:31:36.496] [task-70] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:31:36.496, threadName - task-70正在执行柳仙儿预售发放礼包任务
+[2021-09-08 20:45:51.745] [task-71] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:45:51.745, threadName - task-71正在执行柳仙儿预售发放礼包任务
+[2021-09-08 20:45:51.745] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:45:51.745, threadName - task-73正在执行月无双预售发放礼包任务
+[2021-09-08 20:45:56.326] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:46:00.009] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:46:00.009, threadName - task-68正在执行柳仙儿预售发放礼包任务
+[2021-09-08 20:46:26.424] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 20:46:28.245] [task-69] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T20:46:28.245, threadName - task-69正在执行月无双预售发放礼包任务
+[2021-09-08 21:00:51.744] [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:01:21.849] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:01:51.944] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:01:55.229] [task-67] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:01:55.229, threadName - task-67正在执行月无双预售发放礼包任务
+[2021-09-08 21:01:55.231] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:01:55.231, threadName - task-68正在执行柳仙儿预售发放礼包任务
+[2021-09-08 21:15:54.163] [task-69] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:15:54.163, threadName - task-69正在执行柳仙儿预售发放礼包任务
+[2021-09-08 21:15:54.163] [task-70] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:15:54.163, threadName - task-70正在执行月无双预售发放礼包任务
+[2021-09-08 21:16:00.002] [task-72] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:16:00.002, threadName - task-72正在执行柳仙儿预售发放礼包任务
+[2021-09-08 21:16:00.002] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:16:00.002, threadName - task-73正在执行月无双预售发放礼包任务
+[2021-09-08 21:16:16.208] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:16:46.313] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:31:10.528] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:31:40.629] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 21:31:54.122] [task-74] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:31:54.121, threadName - task-74正在执行柳仙儿预售发放礼包任务
+[2021-09-08 21:31:54.122] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:31:54.121, threadName - task-73正在执行月无双预售发放礼包任务
+[2021-09-08 21:32:00.006] [task-67] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:32:00.006, threadName - task-67正在执行柳仙儿预售发放礼包任务
+[2021-09-08 21:32:00.006] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-08T21:32:00.006, threadName - task-68正在执行月无双预售发放礼包任务
+[2021-09-08 23:45:16.767] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 23:45:46.874] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-08 23:46:16.971] [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 00:45:29.370] [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 00:45:35.468] [task-66] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T00:45:35.468, threadName - task-66正在执行月无双预售发放礼包任务
+[2021-09-09 00:45:35.468] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T00:45:35.468, threadName - task-68正在执行柳仙儿预售发放礼包任务
+[2021-09-09 00:45:59.465] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 00:46:00.005] [task-69] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T00:46:00.005, threadName - task-69正在执行月无双预售发放礼包任务
+[2021-09-09 00:46:00.005] [task-74] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T00:46:00.005, threadName - task-74正在执行柳仙儿预售发放礼包任务
+[2021-09-09 02:46:27.918] [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 02:46:58.013] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 02:47:28.113] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 03:45:40.655] [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 03:45:40.798] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T03:45:40.798, threadName - task-73正在执行柳仙儿预售发放礼包任务
+[2021-09-09 03:45:40.798] [task-70] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T03:45:40.798, threadName - task-70正在执行月无双预售发放礼包任务
+[2021-09-09 03:46:00.007] [task-76] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T03:46:00.007, threadName - task-76正在执行柳仙儿预售发放礼包任务
+[2021-09-09 03:46:00.007] [task-75] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T03:46:00.007, threadName - task-75正在执行月无双预售发放礼包任务
+[2021-09-09 03:46:10.756] [lettuce-eventExecutorLoop-1-3] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 04:45:34.974] [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 04:46:05.076] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 06:46:35.091] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 06:46:53.570] [task-76] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T06:46:53.570, threadName - task-76正在执行柳仙儿预售发放礼包任务
+[2021-09-09 06:46:53.569] [task-68] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T06:46:53.569, threadName - task-68正在执行月无双预售发放礼包任务
+[2021-09-09 06:47:05.215] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 06:47:35.313] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 07:43:46.412] [task-76] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T07:43:46.411, threadName - task-76正在执行月无双预售发放礼包任务
+[2021-09-09 07:43:46.411] [task-81] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T07:43:46.411, threadName - task-81正在执行柳仙儿预售发放礼包任务
+[2021-09-09 07:43:51.823] [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 07:44:00.003] [task-79] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T07:44:00.003, threadName - task-79正在执行柳仙儿预售发放礼包任务
+[2021-09-09 07:44:00.004] [task-70] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T07:44:00.004, threadName - task-70正在执行月无双预售发放礼包任务
+[2021-09-09 07:44:21.921] [lettuce-eventExecutorLoop-1-11] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 08:30:10.506] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 08:30:40.599] [lettuce-eventExecutorLoop-1-5] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 08:31:10.708] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 09:13:23.809] [task-73] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:13:23.809, threadName - task-73正在执行柳仙儿预售发放礼包任务
+[2021-09-09 09:13:23.809] [task-80] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:13:23.809, threadName - task-80正在执行月无双预售发放礼包任务
+[2021-09-09 09:13:46.127] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 09:14:00.012] [task-83] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:14:00.012, threadName - task-83正在执行柳仙儿预售发放礼包任务
+[2021-09-09 09:14:00.015] [task-84] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:14:00.015, threadName - task-84正在执行月无双预售发放礼包任务
+[2021-09-09 09:14:16.225] [lettuce-eventExecutorLoop-1-7] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 09:54:19.995] [lettuce-eventExecutorLoop-1-9] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 09:54:50.215] [lettuce-eventExecutorLoop-1-2] INFO  i.l.core.protocol.ConnectionWatchdog : Reconnecting, last destination was 10.0.0.203:6379
+[2021-09-09 09:54:50.229] [lettuce-nioEventLoop-7-5] INFO  i.l.c.protocol.ReconnectionHandler : Reconnected to 10.0.0.203:6379
+[2021-09-09 09:55:33.095] [task-84] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:55:33.095, threadName - task-84正在执行柳仙儿预售发放礼包任务
+[2021-09-09 09:55:33.095] [task-83] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:55:33.095, threadName - task-83正在执行月无双预售发放礼包任务
+[2021-09-09 09:56:00.001] [task-87] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:56:00.001, threadName - task-87正在执行月无双预售发放礼包任务
+[2021-09-09 09:56:00.003] [task-89] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:56:00.003, threadName - task-89正在执行柳仙儿预售发放礼包任务
+[2021-09-09 09:58:00.003] [task-93] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:58:00.003, threadName - task-93正在执行月无双预售发放礼包任务
+[2021-09-09 09:58:00.003] [task-95] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-09T09:58:00.003, threadName - task-95正在执行柳仙儿预售发放礼包任务
+[2021-09-09 09:58:23.415] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-09 09:58:23.417] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'

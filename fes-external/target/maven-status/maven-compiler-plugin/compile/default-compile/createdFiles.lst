@@ -1,0 +1,4 @@
+com/miniw/fesexternal/client/FeignConfig$PhpMappingJackson2HttpMessageConverter.class
+com/miniw/fesexternal/client/openlogs/OpenLogsClient.class
+com/miniw/fesexternal/client/openlogs/params/OpenLogsConstant.class
+com/miniw/fesexternal/client/FeignConfig.class

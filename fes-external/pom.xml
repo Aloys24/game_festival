@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.miniw</groupId>
+        <artifactId>mini-festival</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>fes-external</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>fes-external</name>
+    <description>0909中秋国庆活动外部服务层</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.miniw</groupId>
+            <artifactId>fes-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.miniw.gameapi</groupId>
+            <artifactId>gameapi-spring-boot-starter</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,184 @@
+[2021-09-10 11:02:22.468] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31487 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:02:22.470] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:02:23.540] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:02:23.546] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:02:23.597] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:02:23.812] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:02:23.932] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:02:26.205] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:02:26.514] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:02:26.514] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:02:28.137] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:02:28.740] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:02:28.897] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 7.1 seconds (JVM running for 8.685)
+[2021-09-10 11:02:40.505] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:02:40.507] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:03:22.361] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31499 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:03:22.362] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:03:23.227] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:03:23.230] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:03:23.260] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:03:23.444] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:03:23.539] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:03:25.258] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:03:25.573] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:03:25.573] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:03:27.238] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:03:27.849] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:03:28.014] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 6.22 seconds (JVM running for 7.622)
+[2021-09-10 11:04:10.967] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-10T11:04:10.967, threadName - task-4正在执行月无双预售发放礼包任务
+[2021-09-10 11:04:10.967] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-10T11:04:10.967, threadName - task-3正在执行柳仙儿预售发放礼包任务
+[2021-09-10 11:04:13.116] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:04:13.117] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:18:20.323] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31588 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:18:20.324] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:18:21.108] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:18:21.113] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:18:21.154] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:18:21.318] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:18:21.414] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:18:22.931] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:18:23.210] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:18:23.210] [redisson-netty-4-7] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:18:24.877] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:18:25.448] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:18:25.610] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.823 seconds (JVM running for 7.153)
+[2021-09-10 11:19:28.845] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:19:28.846] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:21:38.213] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31634 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:21:38.214] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:21:39.098] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:21:39.102] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:21:39.147] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:21:39.323] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:21:39.415] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:21:41.092] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:21:41.369] [redisson-netty-4-7] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:21:41.369] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:21:42.796] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:21:43.354] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:21:43.516] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 6.834 seconds (JVM running for 8.163)
+[2021-09-10 11:21:55.115] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:21:55.116] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:23:08.730] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31650 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:23:08.731] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:23:09.490] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:23:09.494] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:23:09.521] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:23:09.687] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:23:09.786] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:23:11.600] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:23:11.954] [redisson-netty-4-5] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:23:11.954] [redisson-netty-4-6] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:23:13.225] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:23:13.849] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:23:14.004] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.764 seconds (JVM running for 6.988)
+[2021-09-10 11:23:14.614] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:23:14.615] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:32:29.421] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31764 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:32:29.423] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:32:30.266] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:32:30.271] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:32:30.302] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:32:30.526] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:32:30.624] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:32:32.026] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:32:32.334] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:32:32.334] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:32:33.504] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:32:34.071] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:32:34.230] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.486 seconds (JVM running for 6.886)
+[2021-09-10 11:32:34.716] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:32:34.717] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:33:37.549] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31769 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:33:37.551] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:33:38.319] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:33:38.336] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:33:38.365] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:33:38.549] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:33:38.662] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:33:40.285] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:33:40.587] [redisson-netty-4-7] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:33:40.587] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:33:41.973] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:33:42.518] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:33:42.667] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.691 seconds (JVM running for 7.118)
+[2021-09-10 11:34:12.876] [task-3] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-10T11:34:12.876, threadName - task-3正在执行柳仙儿预售发放礼包任务
+[2021-09-10 11:34:12.876] [task-4] INFO  com.miniw.fesweb.task.ScheduledTask : time - 2021-09-10T11:34:12.876, threadName - task-4正在执行月无双预售发放礼包任务
+[2021-09-10 11:34:17.689] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:34:17.690] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:36:49.105] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31805 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:36:49.107] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:36:50.015] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:36:50.019] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:36:50.049] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:36:50.220] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:36:50.316] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:36:51.709] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:36:52.023] [redisson-netty-4-6] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:36:52.023] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:36:53.163] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:36:53.727] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:36:53.872] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.487 seconds (JVM running for 6.699)
+[2021-09-10 11:36:54.414] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:36:54.415] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:37:56.009] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31828 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:37:56.010] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:37:56.802] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:37:56.806] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:37:56.834] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:37:57.010] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:37:57.120] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:37:58.693] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:37:58.948] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:37:58.948] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:38:00.383] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:38:00.974] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:38:01.149] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.761 seconds (JVM running for 7.142)
+[2021-09-10 11:38:07.263] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:38:07.264] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:38:43.450] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31833 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:38:43.451] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:38:44.239] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:38:44.243] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:38:44.271] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:38:44.451] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:38:44.549] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:38:46.037] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:38:46.357] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:38:46.357] [redisson-netty-4-6] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:38:47.592] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:38:48.157] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:38:48.291] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.299 seconds (JVM running for 6.234)
+[2021-09-10 11:38:48.831] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:38:48.832] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:39:58.031] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31844 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:39:58.032] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:39:58.783] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:39:58.787] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:39:58.826] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:39:58.994] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:39:59.092] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:40:00.626] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:40:00.925] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:40:00.925] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:40:02.338] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:40:02.868] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:40:03.021] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 5.581 seconds (JVM running for 7.014)
+[2021-09-10 11:40:17.901] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:40:17.902] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:42:00.876] [main] INFO  c.m.fesweb.FesWebApplicationTests : Starting FesWebApplicationTests using Java 1.8.0_221 on luoquandeMacBook-Pro.local with PID 31885 (started by blacker in /Users/blacker/IdeaProjects/mini-festival/fes-web)
+[2021-09-10 11:42:00.877] [main] INFO  c.m.fesweb.FesWebApplicationTests : The following profiles are active: dev
+[2021-09-10 11:42:01.669] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-09-10 11:42:01.673] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-09-10 11:42:01.700] [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[2021-09-10 11:42:01.862] [main] INFO  o.s.c.a.ConfigurationClassPostProcessor : Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[2021-09-10 11:42:01.942] [main] INFO  o.s.cloud.context.scope.GenericScope : BeanFactory id=89da16af-9ba9-373b-87dc-09709353196a
+[2021-09-10 11:42:03.222] [main] INFO  org.redisson.Version : Redisson 3.12.0
+[2021-09-10 11:42:03.518] [redisson-netty-4-5] INFO  o.r.c.p.MasterPubSubConnectionPool : 1 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:42:03.518] [redisson-netty-4-7] INFO  o.r.c.pool.MasterConnectionPool : 2 connections initialized for 10.0.0.203/10.0.0.203:6379
+[2021-09-10 11:42:04.674] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-09-10 11:42:05.150] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+[2021-09-10 11:42:05.269] [main] INFO  c.m.fesweb.FesWebApplicationTests : Started FesWebApplicationTests in 4.968 seconds (JVM running for 6.038)
+[2021-09-10 11:42:05.773] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+[2021-09-10 11:42:05.774] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'

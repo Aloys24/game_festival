@@ -1,0 +1,5 @@
+/Users/blacker/IdeaProjects/mini-festival/fes-persistence/src/main/java/com/miniw/fespersistence/model/TAwardRecord.java
+/Users/blacker/IdeaProjects/mini-festival/fes-persistence/src/main/java/com/miniw/fespersistence/service/TAwardRecordService.java
+/Users/blacker/IdeaProjects/mini-festival/fes-persistence/src/main/java/com/miniw/fespersistence/config/MybatisPlusConfig.java
+/Users/blacker/IdeaProjects/mini-festival/fes-persistence/src/main/java/com/miniw/fespersistence/service/impl/TAwardRecordServiceImpl.java
+/Users/blacker/IdeaProjects/mini-festival/fes-persistence/src/main/java/com/miniw/fespersistence/mapper/TAwardRecordMapper.java

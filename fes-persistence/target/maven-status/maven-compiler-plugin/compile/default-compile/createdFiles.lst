@@ -1,0 +1,5 @@
+com/miniw/fespersistence/service/impl/TAwardRecordServiceImpl.class
+com/miniw/fespersistence/config/MybatisPlusConfig.class
+com/miniw/fespersistence/mapper/TAwardRecordMapper.class
+com/miniw/fespersistence/model/TAwardRecord.class
+com/miniw/fespersistence/service/TAwardRecordService.class
